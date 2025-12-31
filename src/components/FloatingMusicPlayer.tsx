@@ -30,7 +30,7 @@ interface Track {
 const trackList: Track[] = [
   {
     id: "1",
-    title: "Drama",
+    title: "drama",
     artist: "aespa",
     album: "Drama - The 4th Mini Album",
     duration: "3:24",
@@ -40,7 +40,7 @@ const trackList: Track[] = [
   },
   {
     id: "2",
-    title: "Spicy",
+    title: "spicy",
     artist: "aespa",
     album: "MY WORLD - The 3rd Mini Album",
     duration: "3:18",
@@ -50,7 +50,7 @@ const trackList: Track[] = [
   },
   {
     id: "3",
-    title: "Thirsty",
+    title: "thirsty",
     artist: "aespa",
     album: "Drama - The 4th Mini Album",
     duration: "3:13",
@@ -60,7 +60,7 @@ const trackList: Track[] = [
   },
   {
     id: "4",
-    title: "Welcome To MY World",
+    title: "welcome To My World",
     artist: "aespa",
     album: "MY WORLD - The 3rd Mini Album",
     duration: "3:17",
@@ -70,7 +70,7 @@ const trackList: Track[] = [
   },
   {
     id: "5",
-    title: "Supernova",
+    title: "supernova",
     artist: "aespa",
     album: "Armageddon - The 1st Album",
     duration: "3:10",
