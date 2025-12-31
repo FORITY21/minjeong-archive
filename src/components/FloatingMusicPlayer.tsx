@@ -60,7 +60,7 @@ const trackList: Track[] = [
   },
   {
     id: "4",
-    title: "welcome To My World",
+    title: "welcome",
     artist: "aespa",
     album: "MY WORLD - The 3rd Mini Album",
     duration: "3:17",
