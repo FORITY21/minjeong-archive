@@ -559,7 +559,7 @@ export const events2025: DateEvent[] = [
   "title": "Rich Man burst",
   "subtitle": "",
   "color": "#e94560",
-  "coverImage": "",
+  "coverImage": "https://i.ifh.cc/TWphX7.jpg",
   "description": "",
   "media": [
     {
@@ -644,7 +644,7 @@ export const events2025: DateEvent[] = [
   "title": "  I am a Rich Man  ⛄",
   "subtitle": "",
   "color": "#e94560",
-  "coverImage": "",
+  "coverImage": "https://i.ifh.cc/s0fWBL.jpg",
   "description": "",
   "media": [
     {
