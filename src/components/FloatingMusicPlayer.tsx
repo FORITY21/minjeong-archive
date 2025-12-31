@@ -36,7 +36,7 @@ const trackList: Track[] = [
     duration: "3:24",
     coverImage:
       "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=100&h=100&fit=crop",
-    audioSrc: "/music/drama.mp4",
+    audioSrc: "/music/drama.mp3",
   },
   {
     id: "2",
@@ -46,7 +46,7 @@ const trackList: Track[] = [
     duration: "3:18",
     coverImage:
       "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=100&h=100&fit=crop",
-    audioSrc: "/music/spicy.mp4",
+    audioSrc: "/music/spicy.mp3",
   },
   {
     id: "3",
@@ -56,7 +56,7 @@ const trackList: Track[] = [
     duration: "3:13",
     coverImage:
       "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=100&h=100&fit=crop",
-    audioSrc: "/music/thirsty.mp4",
+    audioSrc: "/music/thirsty.mp3",
   },
   {
     id: "4",
@@ -66,7 +66,7 @@ const trackList: Track[] = [
     duration: "3:17",
     coverImage:
       "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=100&h=100&fit=crop",
-    audioSrc: "/music/welcome.mp4",
+    audioSrc: "/music/welcome.mp3",
   },
   {
     id: "5",
@@ -76,7 +76,7 @@ const trackList: Track[] = [
     duration: "3:10",
     coverImage:
       "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=100&h=100&fit=crop",
-    audioSrc: "/music/supernova.mp4",
+    audioSrc: "/music/supernova.mp3",
   },
   {
     id: "6",
@@ -86,7 +86,7 @@ const trackList: Track[] = [
     duration: "3:32",
     coverImage:
       "https://i.namu.wiki/i/HPIyUzXhZTOZtR1iCtLDUedoGbbw3OVsSxXhpyloNjejqerMKNNdYLmwgare2WjO8a8iwHDKgypdjqLP0BZlcoa9yTNZvIkDPfQF4LhfdewlNKP6fHv-rtxzYLvbeNeUbN7coz05gGfS2dh0WJ45PQ?w=100&h=100&fit=crop.webp",
-    audioSrc: "/music/blue.mp4",
+    audioSrc: "/music/blue.mp3",
   },
 ];
 
