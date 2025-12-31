@@ -104,6 +104,10 @@ export default function YearCarousel({ onBack, onSelectYear }: YearCarouselProps
   slidesPerView="auto"
   spaceBetween={-80}
   initialSlide={initialSlideIndex}
+  // 🎯 클릭 이벤트 허용 (PC 2021/2022 문제 해결)
+  preventClicks={false}
+  preventClicksPropagation={false}
+  touchStartPreventDefault={false}
   // 🎯 PC 기본값 그대로 (수치 변경 없음)
   coverflowEffect={{
     rotate: 15,
@@ -192,12 +196,22 @@ export default function YearCarousel({ onBack, onSelectYear }: YearCarouselProps
                         {isActive && (
                           <button
                             type="button"
-                            className="flex items-center gap-3 px-6 lg:px-8 py-3 lg:py-4 rounded-full font-inter text-sm lg:text-base font-medium text-white transition-all duration-200 hover:scale-105 active:scale-95 touch-manipulation min-h-[48px]"
+                            className="flex items-center gap-3 px-6 lg:px-8 py-3 lg:py-4 rounded-full font-inter text-sm lg:text-base font-medium text-white transition-all duration-200 hover:scale-105 active:scale-95 touch-manipulation min-h-[48px] relative z-50 cursor-pointer"
                             style={{
                               background: `${year.color}`,
                               boxShadow: `0 4px 20px ${year.color}60`,
                             }}
-                            onClick={() => selectYear(year.year)}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              e.preventDefault();
+                              selectYear(year.year);
+                            }}
+                            onPointerUp={(e) => {
+                              e.stopPropagation();
+                            }}
+                            onMouseDown={(e) => {
+                              e.stopPropagation();
+                            }}
                           >
                             <FaPlay className="text-sm lg:text-base" />
                             <span>Explore {year.year}</span>
@@ -228,12 +242,16 @@ export default function YearCarousel({ onBack, onSelectYear }: YearCarouselProps
             {sortedYears.map((year, index) => (
               <button
                 key={year.year}
-                className="flex flex-col items-center gap-1 transition-all duration-200 p-2"
+                type="button"
+                className="flex flex-col items-center gap-1 transition-all duration-200 p-2 relative z-50 cursor-pointer"
                 style={{ 
                   transform: index === activeIndex ? "scale(1.2)" : "scale(1)", 
                   opacity: index === activeIndex ? 1 : 0.4 
                 }}
-                onClick={() => selectYear(year.year)} // ✅ 클릭시 중앙 배치
+                onClick={(e) => {
+                  e.stopPropagation();
+                  selectYear(year.year);
+                }}
               >
                 <div
                   className="w-3 h-3 lg:w-4 lg:h-4 rounded-full transition-all"
@@ -259,6 +277,18 @@ export default function YearCarousel({ onBack, onSelectYear }: YearCarouselProps
         }
         .year-swiper .swiper-slide {
           transition: all 0.4s ease;
+        }
+        /* 🎯 PC에서 비활성 슬라이드 클릭 방지 (2021/2022 문제 해결) */
+        @media (min-width: 769px) {
+          .year-swiper .swiper-slide:not(.swiper-slide-active) .swiper-year-card {
+            pointer-events: none;
+          }
+          .year-swiper .swiper-slide.swiper-slide-active .swiper-year-card {
+            pointer-events: auto;
+          }
+          .year-swiper .swiper-slide.swiper-slide-active {
+            z-index: 10 !important;
+          }
         }
         .year-swiper .swiper-button-next,
         .year-swiper .swiper-button-prev {
