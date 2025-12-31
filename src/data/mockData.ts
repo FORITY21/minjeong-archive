@@ -74,12 +74,12 @@ export type DateEvent = {
 
 // ============ 연도별 데이터 (yearData) - 그대로 유지 ============
 export const yearData: YearData[] = [
-  { id: "2020", year: 2020, title: "Pre-debut", subtitle: "Training Days", description: "데뷔 전 연습생 시절", color: "#6a0dad", image: "https://i.ifh.cc/JzBrrP.jpg", photoCount:0},
-  { id: "2021", year: 2021, title: "Black Mamba Era", subtitle: "Debut Year", description: "aespa로서 첫 발을 내딛은 해", color: "#1a1a1a", image: "https://i.ifh.cc/pF0ZgB.jpg", photoCount:0},
-  { id: "2022", year: 2022, title: "Girls Era", subtitle: "Rising Star", description: "Girls로 세계를 사로잡은 해", color: "#FF69B4", image: "https://i.ifh.cc/nyZNta.jpg", photoCount:0},
-  { id: "2023", year: 2023, title: "Spicy Era", subtitle: "Global Stage", description: "전 세계 무대에서 빛난 해", color: "#FF4444", image: "https://i.ifh.cc/HmmWgV.jpg", photoCount:0},
-  { id: "2024", year: 2024, title: "Supernova Era", subtitle: "Top Tier", description: "정상의 자리에 오른 해", color: "#22c55e", image: "https://i.ifh.cc/2gS2dd.jpg", photoCount:0},
-  { id: "2025", year: 2025, title: "winter blue", subtitle: "New Chapter", description: "새로운 시작", color: "#2B3138", image: "https://i.ifh.cc/HrSl6p.jpg", photoCount: 0}
+  { id: "2020", year: 2020, title: "debut", subtitle: "", description: "데뷔", color: "#6a0dad", image: "https://i.ifh.cc/JzBrrP.jpg", photoCount:0},
+  { id: "2021", year: 2021, title: "NEXT LEVEL", subtitle: "", description: "", color: "#1a1a1a", image: "https://i.ifh.cc/pF0ZgB.jpg", photoCount:0},
+  { id: "2022", year: 2022, title: "Girls", subtitle: "", description:"", color: "#FF69B4", image: "https://i.ifh.cc/nyZNta.jpg", photoCount:0},
+  { id: "2023", year: 2023, title: "Spicy", subtitle: "", description: "", color: "#FF4444", image: "https://i.ifh.cc/HmmWgV.jpg", photoCount:0},
+  { id: "2024", year: 2024, title: "Supernova Era", subtitle: "", description: "", color: "#22c55e", image: "https://i.ifh.cc/2gS2dd.jpg", photoCount:0},
+  { id: "2025", year: 2025, title: "winter blue", subtitle: "", description: "새로운 시작", color: "#2B3138", image: "https://i.ifh.cc/HrSl6p.jpg", photoCount: 0}
 ];
 
 // 호환성용 export

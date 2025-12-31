@@ -551,6 +551,38 @@ export const events2024: DateEvent[] = [
     ]
   },
   {
+    "id": "20241009",
+    "date": "2024-10-09",
+    "title": " Spark",
+    "subtitle": "",
+    "color": "#e94560",
+    "coverImage": "",
+    "description": "",
+    "media": [
+      {
+        "type": "youtube",
+        "url": "https://youtu.be/ZKnX1ewd1DA?si=dYe6Tzh7XPI1JG2E",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "id": "20240703",
+    "date": "2024-07-03",
+    "title": "hot mess",
+    "subtitle": "",
+    "color": "#e94560",
+    "coverImage": "",
+    "description": "",
+    "media": [
+      {
+        "type": "youtube",
+        "url": "https://youtu.be/2iK3ccCsI6s?si=370e5sYgdBgqsN7Z",
+        "caption": ""
+      }
+    ]
+  },
+  {
     id: "2024-1021",
     date: "2024-10-21",
     title: "Whiplash Release",
@@ -570,7 +602,7 @@ export const events2024: DateEvent[] = [
         caption: "Whiplash Concept",
       },
     ],
-    description: "새로운 콘셉트로 돌아온 Whiplash",
+    description: "",
   },
   {
     "id": "20241101",
@@ -600,6 +632,27 @@ export const events2024: DateEvent[] = [
       {
         "type": "youtube",
         "url": "https://youtu.be/wX-frWhGiS0?si=3yacWDYTurdZ4rKO",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "id": "20240101",
+    "date": "2024-01-01",
+    "title": "Let's eat together 🍰",
+    "subtitle": "",
+    "color": "#e94560",
+    "coverImage": "",
+    "description": "",
+    "media": [
+      {
+        "type": "youtube",
+        "url": "https://youtube.com/shorts/lH3f2W0Nz0I?si=icEgoDyqeBL054aO",
+        "caption": ""
+      },
+      {
+        "type": "youtube",
+        "url": "https://youtube.com/shorts/VpGbYIvB35g?si=9ALqwmXaW6Yx-huj",
         "caption": ""
       }
     ]

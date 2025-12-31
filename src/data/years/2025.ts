@@ -400,7 +400,7 @@ export const events2025: DateEvent[] = [
   "title":"SYNK : PARALLEL LINE Encore Concert",
   "subtitle": "SYNK : PARALLEL LINE Encore Concert",
   "color": "#322f2f",
-  "coverImage": "https://i.ibb.co/Mxq4CgCS/imwinter-1752396374-3675689660871298569-59626733783.jpg",
+  "coverImage": "https://i.ifh.cc/b59VMl.jpg",
   "description": "SYNK : PARALLEL LINE Encore Concert",
   "media": [
     {
@@ -418,7 +418,7 @@ export const events2025: DateEvent[] = [
   "title": "sharp t✪✪th",
   "subtitle": "",
   "color": "#e94560",
-  "coverImage": "",
+  "coverImage": "https://i.ifh.cc/1y10lK.jpg",
   "description": "",
   "media": [
     {
@@ -509,7 +509,7 @@ export const events2025: DateEvent[] = [
   "title": "⁎ 🎸 * ･ ｡",
   "subtitle": "",
   "color": "#e94560",
-  "coverImage": "",
+  "coverImage": "https://i.ifh.cc/R7bZ5T.jpg",
   "description": "",
   "media": [
     {
@@ -591,7 +591,7 @@ export const events2025: DateEvent[] = [
   "title": "Rich Man' ENERGY",
   "subtitle": "",
   "color": "#e94560",
-  "coverImage": "",
+  "coverImage": "https://i.ifh.cc/amX83z.jpg",
   "description": "",
   "media": [
     {
@@ -680,7 +680,7 @@ export const events2025: DateEvent[] = [
   "title": "come hang out with me",
   "subtitle": "",
   "color": "#e94560",
-  "coverImage": "",
+  "coverImage": "https://i.ifh.cc/3cdNNW.jpg",
   "description": "",
   "media": [
     {
@@ -759,7 +759,7 @@ export const events2025: DateEvent[] = [
   "title": "𝘔𝘺 𝘱𝘦𝘳𝘧𝘦𝘤𝘵 𝘧𝘪𝘵 ",
   "subtitle": "",
   "color": "#e94560",
-  "coverImage": "",
+  "coverImage": "https://i.ifh.cc/K2MhDh.jpg",
   "description": "",
   "media": [
     {
@@ -784,7 +784,7 @@ export const events2025: DateEvent[] = [
   "title": "Hi ☃︎",
   "subtitle": "",
   "color": "#e94560",
-  "coverImage": "",
+  "coverImage": "https://i.ifh.cc/0blmlH.jpg",
   "description": "",
   "media": [
     {
@@ -802,7 +802,7 @@ export const events2025: DateEvent[] = [
   "title": "Ralph Lauren Holiday Experience  ",
   "subtitle": "",
   "color": "#e94560",
-  "coverImage": "",
+  "coverImage": "https://i.ifh.cc/8NWy7g.jpg",
   "description": "",
   "media": [
     {
@@ -892,6 +892,22 @@ export const events2025: DateEvent[] = [
     {
       "type": "youtube",
       "url": "https://youtu.be/r6w3UdvAQuY?si=aq8zcKkbtjXvdnhJ",
+      "caption": ""
+    }
+  ]
+},
+{
+  "id": "20251127",
+  "date": "2025-11-27",
+  "title": "blue",
+  "subtitle": "",
+  "color": "#e94560",
+  "coverImage": "",
+  "description": "",
+  "media": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/D5MtRNQBVbk?si=7Rev7qmJMMARbRJ-",
       "caption": ""
     }
   ]

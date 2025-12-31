@@ -243,6 +243,38 @@ export const events2023: DateEvent[] = [
     ]
   },
   {
+    "id": "20230502",
+    "date": "2023-05-02",
+    "title": "Welcome To MY World",
+    "subtitle": "",
+    "color": "#e94560",
+    "coverImage": "",
+    "description": "",
+    "media": [
+      {
+        "type": "youtube",
+        "url": "https://youtu.be/0xdB_vo4r2c?si=F1ZPbSBrwUIMgMjy",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "id": "20230818",
+    "date": "2023-08-18",
+    "title": "Better Things",
+    "subtitle": "",
+    "color": "#e94560",
+    "coverImage": "",
+    "description": "",
+    "media": [
+      {
+        "type": "youtube",
+        "url": "https://youtu.be/gfk3QLU1x0E?si=xsGDxE05MWD06yT3",
+        "caption": ""
+      }
+    ]
+  },
+  {
     id: "2023-0508",
     date: "2023-05-08",
     title: "Spicy Release",
@@ -267,7 +299,7 @@ export const events2023: DateEvent[] = [
         caption: "Music Show Win",
       },
     ],
-    description: "매운맛 가득한 Spicy로 차트를 휩쓸다",
+    description:"",
   },
   {
     id: "2023-1110",

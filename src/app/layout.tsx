@@ -46,8 +46,11 @@ const maruBuri = localFont({
 export const metadata: Metadata = {
   title: "민정이 앨범 | Minjeong Archive",
   description: "소중한 추억을 담은 민정이 앨범",
+openGraph: {  // 🔥 이 부분만 추가!
+  images: ['/og-image.png'],
+  title: '민정이 앨범 💎',
+},
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{

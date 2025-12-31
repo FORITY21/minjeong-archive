@@ -2307,13 +2307,7 @@ export const insta2025 = [
     "date": "2025-07-13",
     "year": 2025,
     "images": [
-      {
-        "image": "https://res.cloudinary.com/ddwxb1cid/image/upload/v1767154332/imwinter_1752396374_3675689661173312927_59626733783_qvqxcv.jpg",
-        "public_id": "imwinter_1752396374_3675689661173312927_59626733783_qvqxcv",
-        "width": 1440,
-        "height": 1917
-      },
-    
+     
       {
         "image": "https://res.cloudinary.com/ddwxb1cid/image/upload/v1767159769/imwinter_1752396374_3675689661164940348_59626733783_widyyd.jpg",
         "public_id": "imwinter_1752396374_3675689661164940348_59626733783_widyyd",
