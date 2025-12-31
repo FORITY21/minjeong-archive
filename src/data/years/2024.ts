@@ -1,28 +1,7 @@
 import { DateEvent } from '../mockData';
 
 export const events2024: DateEvent[] = [
-  {
-    id: "2024-0101",
-    date: "2024-01-01",
-    title: "Supernova Rising",
-    subtitle: "Supernova Era",
-    color: "#22c55e",
-    coverImage: "https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=800&h=600&fit=crop",
-    media: [
-      {
-        type: "youtube",
-        url: "https://www.youtube.com/watch?v=phuiiNCxRMg",
-        thumbnail: "https://img.youtube.com/vi/phuiiNCxRMg/maxresdefault.jpg",
-        caption: "Supernova MV",
-      },
-      {
-        type: "image",
-        url: "https://images.unsplash.com/photo-1482575832494-771f74bf6857?w=600&h=800&fit=crop",
-        caption: "New Year Celebration",
-      },
-    ],
-    description: "Supernova로 정상에 오른 2024년",
-  },
+    
   {
     "id": "20240105",
     "date": "2024-01-05",
